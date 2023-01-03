@@ -7,7 +7,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     display: flex;
-    background-color: #587873;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -20,8 +19,8 @@ body {
     height: calc(100vh + 60px);
     position: absolute;
     z-index: -1;
-    top: 0;
-    left: 0;
+    top: -30px;
+    left: -30px;
     filter: blur(0px);
 }
 
